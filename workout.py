@@ -1,12 +1,10 @@
 import datetime 
 import time
 
-current_date = datetime.datetime.now().strftime("%m-%d-%Y")
-workout_completed = ""
-
 def main():
+	current_date = datetime.datetime.now().strftime("%m-%d-%Y")
+	workout_completed = ""
 	print("1. 10 pushups \n2. 10 situps \n3. 10 squats")
-
 	workout_input = input("Enter what you completed: ")
 	if workout_input == "1": 
 		workout_completed = "10 Pushups completed on: "
