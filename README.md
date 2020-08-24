@@ -10,3 +10,6 @@ workout.py
 
 motivation.py
 - gives you a quote based on your input of a topic/feeling or random
+
+koreanshows.py
+- search popular korean media streaming site viki.com for new shows, shows by actors, alerts
